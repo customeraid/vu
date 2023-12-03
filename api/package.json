@@ -1,0 +1,28 @@
+{
+  "name": "node_face",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "@wdio/cli": "^8.16.6",
+    "chromedriver": "^116.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pm2": "^5.3.0",
+    "puppeteer": "^21.3.1",
+    "selenium-webdriver": "^4.12.0",
+    "webdriverio": "^8.16.6"
+  },
+  "description": "",
+  "devDependencies": {
+    "@wdio/local-runner": "^8.16.6",
+    "@wdio/mocha-framework": "^8.16.3",
+    "@wdio/spec-reporter": "^8.16.3"
+  }
+}
