@@ -12,7 +12,7 @@ function senEvent($nodeAppUrl ,$jsonData) {
     return $response;
 }
 
-$LINK = "http://103.14.155.100:5000";
+$LINK = "http://103.20.102.37:5000";
 // $LINK = "http://localhost:5000";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Nhận dữ liệu POST từ Ajax
